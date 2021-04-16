@@ -1,4 +1,4 @@
-module github.com/galeone/tfgo
+module github.com/nktch1/tfgo
 
 go 1.15
 
