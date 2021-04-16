@@ -85,3 +85,8 @@ func (model *Model) Op(name string, idx int) tf.Output {
 	}
 	return op.Output(idx)
 }
+
+// Op extracts the signatures
+func (model *Model) Signatures() map[string]tf.Signature {
+	return model.saved.Signatures
+}
