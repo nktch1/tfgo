@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/galeone/tfgo"
+	"github.com/nktch1/tfgo"
 )
 
 // Image is the type that abstracts a Tensorflow tensor

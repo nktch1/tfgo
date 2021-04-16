@@ -17,8 +17,8 @@ import (
 	"fmt"
 	tf "github.com/galeone/tensorflow/tensorflow/go"
 	"github.com/galeone/tensorflow/tensorflow/go/op"
-	tg "github.com/galeone/tfgo"
-	"github.com/galeone/tfgo/image/padding"
+	tg "github.com/nktch1/tfgo"
+	"github.com/nktch1/tfgo/image/padding"
 	"strings"
 )
 
